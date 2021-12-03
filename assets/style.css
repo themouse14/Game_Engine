@@ -1,0 +1,16 @@
+* {
+ margin: 25px;
+ padding: 0;
+ box-sizing: border-box;   
+}
+
+.container {
+    height: 75vh;
+    width: 75vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid gray;
+
+}
