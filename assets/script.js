@@ -21,5 +21,12 @@ async function testCall2() {
 testCall2();
 
 
+// Functions to pull data from APIs
+
+// Genre Function
+
+
+
+
 
 
