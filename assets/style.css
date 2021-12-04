@@ -26,25 +26,6 @@ body {
 
 }
 
-
-
-}
-
-
-* {
- margin: 25px;
- padding: 0;
- box-sizing: border-box;
- flex-direction: column;
- align-items: center;
-}
-
-body {
-    display: flex;
-    align-items: center;    
-}
-
-
 .container {
     height: 75vh;
     width: 50vw;
@@ -54,8 +35,5 @@ body {
     flex-direction: column;
     border: 1px solid gray;
     border-radius: 0.5em 0.5em 0.5em;
-
-}
-
 
 }
