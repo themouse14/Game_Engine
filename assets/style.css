@@ -1,3 +1,4 @@
+
 .active-purple-4 input[type=text]:focus:not([readonly]) {
   border: 1px solid #ce93d8;
   box-shadow: 0 0 0 1px #ce93d8;
@@ -10,6 +11,7 @@
 .search-bar{
     padding-top: 40px;
 }
+
 
 * {
  margin: 25px;
@@ -33,4 +35,3 @@ body {
     flex-direction: column;
     border: 1px solid gray;
     border-radius: 0.5em 0.5em 0.5em;
-}
