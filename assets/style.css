@@ -1,12 +1,36 @@
 .active-purple-4 input[type=text]:focus:not([readonly]) {
-    border: 1px solid #ce93d8;
-    box-shadow: 0 0 0 1px #ce93d8;
-  }
-  .active-purple-3 input[type=text] {
-    border: 1px solid #ce93d8;
-    box-shadow: 0 0 0 1px #ce93d8;
-  }
+  border: 1px solid #ce93d8;
+  box-shadow: 0 0 0 1px #ce93d8;
+}
+.active-purple-3 input[type=text] {
+  border: 1px solid #ce93d8;
+  box-shadow: 0 0 0 1px #ce93d8;
+}
 
-  .search-bar{
-      padding-top: 40px;
-  }
+.search-bar{
+    padding-top: 40px;
+}
+
+* {
+ margin: 25px;
+ padding: 0;
+ box-sizing: border-box;   
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container {
+    height: 75vh;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 0.5em 0.5em 0.5em;
+}
