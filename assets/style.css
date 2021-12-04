@@ -23,6 +23,7 @@ body {
 
 .search-bar{
     padding-top: 40px;
+<<<<<<< HEAD
     padding-bottom: 40px;
     background-color: purple;
 }
@@ -34,6 +35,11 @@ body {
 }
 
 
+=======
+
+}
+
+>>>>>>> 691114fc47096bbbb55c7640d79239395e4aad5d
 .container {
     height: 75vh;
     width: 50vw;
