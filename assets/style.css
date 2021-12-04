@@ -23,6 +23,11 @@ body {
   border: 1px solid #ce93d8;
   box-shadow: 0 0 0 1px #ce93d8;
 }
+
+.search-bar{
+    padding-top: 40px;
+}
+
 .container {
     height: 75vh;
     width: 50vw;
