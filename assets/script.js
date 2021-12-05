@@ -23,6 +23,11 @@ testCall2();
 
 
 // Functions to pull data from APIs
+const genre = document.querySelector("#genre");
+console.log("genre", genre);
 
 
+genre = addEventListener("click", function(){
+console.log("button was clicked");
 
+})
