@@ -1,9 +1,12 @@
+
 * {
 margin: 0;
 padding: 0;
 box-sizing: border-box;  
 flex-direction: column;
 align-items: center;
+font-family: 'Abel', sans-serif;
+
 
 }
 
@@ -46,6 +49,7 @@ body {
     border-radius: 0.5em 0.5em 0.5em;
     background: rgb(238, 238, 238);
     box-shadow: 0 0 1em 1em rgba(236, 236, 236, 0.253);
+
 }
 
 .btn{
