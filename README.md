@@ -18,14 +18,19 @@ The user interface will be easy and simple to use, with a drop down menu for eac
 
 ### API's
 
+CheapShark
+
 - https://www.cheapshark.com/api/1.0/stores
+
+RAWG
+
 - https://api.rawg.io/api/games?key=8d248e60c35d4a06aa9e584a6a9d9167
 
 -----screenshot of completed website here-------
 
 ## Authors
 
-Mickenzie Bly
+Micki Bly
 
 - https://github.com/themouse14
 
