@@ -37,3 +37,6 @@ body {
     border-radius: 0.5em 0.5em 0.5em;
 }
 
+.bg-gradient{
+  background-image: var(--mdb-gradient);
+}
