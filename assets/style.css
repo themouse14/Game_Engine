@@ -23,7 +23,6 @@ body {
 
 .search-bar{
     padding-top: 40px;
-
 }
 
 .container {
@@ -33,7 +32,8 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border: 1px solid gray;
+    border: 1px solid #ce93d8;
+    box-shadow: 0 0 0 1px #ce93d8;
     border-radius: 0.5em 0.5em 0.5em;
-
 }
+
