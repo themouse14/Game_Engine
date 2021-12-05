@@ -13,10 +13,27 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
     <!-- Material Design Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+   
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
+
     <link rel="stylesheet" href="./assets/style.css">
     <title>Game Engine</title>
 </head>
 <body>
+
+  <div class="col-3 col-md-2">
+    <!-- Search Bar -->
+    <div class="align-items-left">
+        <label class="fw-bold searchLabel" for="search">Find your games:</label>
+        <Input class="w-100" type="text" name="search" id="citySearch"></input>
+        <Button class="btn my-2 btn-primary w-100" id="searchBtn">Search Games</Button>
+    </div>
+    <hr />
+    <div id="saveBtnEl" class="button">
+        <!-- Search Result Buttons -->
+    </div>
+</div>
+
     <!--Main Container: Img, Description, Year of Game-->
 <div class="container">
     <img src="" alt="" id="gameIcons">Image Unavailable</image>
@@ -27,8 +44,9 @@
 <div class="location">
     <h3>Locations:<span class="location"></span></h3>
 </div>
- <!--Results Table-->
- <div id="datatable">Result Table
+<!--Results Table-->
+<h3>Search Results</h3>
+<div id="search-results">
 </div>
 <!--Modal-->
     <div class="modal" tabindex="-1">
