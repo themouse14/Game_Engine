@@ -1,53 +1,20 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  flex-direction: column;
-  align-items: center;
-}
-
 body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: repeating-linear-gradient(
-    rgba(71, 82, 230, 0.633) 0%,
-    rgba(125, 70, 226, 0.877) 35%,
-    rgb(205, 151, 226) 100%
-  );
+  font-family: "Source Code Pro", monospace;
+  background-color: white;
 }
-
-.search-bar {
+.container-fluid {
+  background-color: white;
 }
-
-.active-purple-4 input[type="text"]:focus:not([readonly]) {
-  border: 1px solid #ce93d8;
-  box-shadow: 0 0 0 1px #ce93d8;
+.col-3 {
+  margin-top: 50px;
 }
-.active-purple-3 input[type="text"] {
-  border: 1px solid #ce93d8;
-  box-shadow: 0 0 0 1px #ce93d8;
+.col-6 {
+  margin-top: 75px;
 }
-
-.search-bar {
-  padding-top: 40px;
+h2 {
+  color: white;
 }
-
-.container {
-  margin: 10px;
-  height: 75vh;
-  width: 50vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  border: 1px solid #ce93d8;
-  border-radius: 0.5em 0.5em 0.5em;
-  background: rgb(238, 238, 238);
-  box-shadow: 0 0 1em 1em rgba(236, 236, 236, 0.253);
-}
-
-.btn {
-  background-color: #aa6ae6bd;
-  color: rgb(240, 241, 241);
+.scrollingDiv {
+  height: 500px;
+  overflow: scroll;
 }
